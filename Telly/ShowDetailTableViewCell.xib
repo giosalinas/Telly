@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="PunkRockShow.ttf">
+            <string>PunkRockShow-Regular</string>
+            <string>PunkRockShow-Regular</string>
+            <string>PunkRockShow-Regular</string>
+            <string>PunkRockShow-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="244" id="1Av-Bw-BBA" customClass="ShowDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="244"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Av-Bw-BBA" id="421-ov-u0w">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHOW TITLE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJX-nM-J41">
+                        <rect key="frame" x="13" y="116" width="310" height="45"/>
+                        <fontDescription key="fontDescription" name="PunkRockShow-Regular" family="PunkRockShow" pointSize="31"/>
+                        <color key="textColor" red="0.91372549020000005" green="0.1647058824" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="DESCRIPTION" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXy-LO-haE">
+                        <rect key="frame" x="13" y="185" width="310" height="12"/>
+                        <fontDescription key="fontDescription" name="PunkRockShow-Regular" family="PunkRockShow" pointSize="12"/>
+                        <color key="textColor" red="0.91372549020000005" green="0.1647058824" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="AIRING ON CHANNEL" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQE-Y2-EsQ">
+                        <rect key="frame" x="13" y="160" width="310" height="15"/>
+                        <fontDescription key="fontDescription" name="PunkRockShow-Regular" family="PunkRockShow" pointSize="15"/>
+                        <color key="textColor" red="0.2156862745" green="0.60784313729999995" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="SHOW LISTINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHe-Py-pOQ">
+                        <rect key="frame" x="13" y="212" width="310" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="ELN-Vb-0dh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PunkRockShow-Regular" family="PunkRockShow" pointSize="23"/>
+                        <color key="textColor" red="0.91372549020000005" green="0.1647058824" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBu-AW-uVw">
+                        <rect key="frame" x="13" y="8" width="310" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="qqI-jf-AeT"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GXy-LO-haE" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="2Of-dg-JxG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GHe-Py-pOQ" secondAttribute="trailing" constant="5" id="3Yu-u9-klT"/>
+                    <constraint firstItem="bQE-Y2-EsQ" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="6UO-T9-i3j"/>
+                    <constraint firstItem="fBu-AW-uVw" firstAttribute="top" secondItem="421-ov-u0w" secondAttribute="top" constant="8" id="9it-9h-Xms"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="GXy-LO-haE" secondAttribute="trailing" constant="5" id="BLP-Ji-AyU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cJX-nM-J41" secondAttribute="trailing" constant="5" id="Iep-fQ-Dfr"/>
+                    <constraint firstItem="fBu-AW-uVw" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="Jv8-oT-VcR"/>
+                    <constraint firstItem="GXy-LO-haE" firstAttribute="top" secondItem="cJX-nM-J41" secondAttribute="bottom" constant="24" id="Oad-c7-7PG"/>
+                    <constraint firstItem="bQE-Y2-EsQ" firstAttribute="top" secondItem="fBu-AW-uVw" secondAttribute="bottom" constant="52" id="PJh-W4-VfX"/>
+                    <constraint firstItem="fBu-AW-uVw" firstAttribute="top" secondItem="421-ov-u0w" secondAttribute="topMargin" id="Sih-CR-fTp"/>
+                    <constraint firstAttribute="bottom" secondItem="GHe-Py-pOQ" secondAttribute="bottom" constant="0.5" id="Yfe-W2-Ji1"/>
+                    <constraint firstItem="GXy-LO-haE" firstAttribute="top" secondItem="bQE-Y2-EsQ" secondAttribute="bottom" constant="10" id="bQW-uJ-QcY"/>
+                    <constraint firstItem="fBu-AW-uVw" firstAttribute="top" secondItem="421-ov-u0w" secondAttribute="topMargin" id="fAt-hS-xwg"/>
+                    <constraint firstItem="GHe-Py-pOQ" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="gNq-l6-0av"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="GHe-Py-pOQ" secondAttribute="bottom" constant="-7.5" id="nT1-dL-J0G"/>
+                    <constraint firstItem="cJX-nM-J41" firstAttribute="top" secondItem="fBu-AW-uVw" secondAttribute="bottom" constant="8" id="nfU-mf-9oZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fBu-AW-uVw" secondAttribute="trailing" constant="5" id="rwY-7N-g04"/>
+                    <constraint firstItem="cJX-nM-J41" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="t1P-XH-UZR"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bQE-Y2-EsQ" secondAttribute="trailing" constant="5" id="u7W-9r-Gyl"/>
+                    <constraint firstItem="GHe-Py-pOQ" firstAttribute="top" secondItem="GXy-LO-haE" secondAttribute="bottom" constant="15" id="wNU-nV-dGM"/>
+                    <constraint firstItem="fBu-AW-uVw" firstAttribute="leading" secondItem="421-ov-u0w" secondAttribute="leadingMargin" constant="5" id="yLM-UB-uMT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="showChannel" destination="bQE-Y2-EsQ" id="2UT-fr-9eN"/>
+                <outlet property="showDescription" destination="GXy-LO-haE" id="Nz1-d1-dao"/>
+                <outlet property="showImageView" destination="fBu-AW-uVw" id="Vud-p7-VBE"/>
+                <outlet property="showListing" destination="GHe-Py-pOQ" id="Lu3-a5-eCt"/>
+                <outlet property="showTitle" destination="cJX-nM-J41" id="CvN-d5-qDW"/>
+            </connections>
+            <point key="canvasLocation" x="658" y="194"/>
+        </tableViewCell>
+    </objects>
+</document>

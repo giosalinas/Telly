@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RequestManager parseXML:]:RequestManager.m">
+      </ContextState>
+      <ContextState
+         contextName = "__62-[FullScheduleViewController generateShowsDataFromDictionary:]_block_invoke:FullScheduleViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ShowDetailViewController tableView:numberOfRowsInSection:]:ShowDetailViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FullScheduleViewController generateShowsDataFromDictionary:]:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "info[@&quot;schedule&quot;][@&quot;DAY&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.scheduleData">
+            </PersistentString>
+            <PersistentString
+               value = "showsAndTimeData[@&quot;time&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[FullScheduleViewController loadData]_block_invoke_2:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "responseObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FullScheduleViewController tableView:numberOfRowsInSection:]:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scheduleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FullScheduleViewController numberOfSectionsInTableView:]:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scheduleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FullScheduleViewController tableView:cellForRowAtIndexPath:]:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scheduleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FullScheduleViewController caca:]:FullScheduleViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scheduleData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

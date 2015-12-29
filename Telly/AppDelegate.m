@@ -2,21 +2,30 @@
 //  AppDelegate.m
 //  Telly
 //
-//  Created by Gio Salinas on 24-06-15.
+//  Created by Gio Salinas on 25-06-15.
 //  Copyright (c) 2015 Gio Salinas. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
+#pragma mark - application delegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    MainViewController *deckController = [MainViewController sharedInstance];
+    
+    self.window.rootViewController = deckController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
