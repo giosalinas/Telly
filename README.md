@@ -7,3 +7,5 @@ This demo-app was made to show how to parse some XML and JSON content from a ser
 # Features
 - Check your TV Shows
 - Details of TV Shows
+
+remember to use 'pod install'
